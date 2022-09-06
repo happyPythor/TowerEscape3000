@@ -108,6 +108,22 @@
           "identifier": "https://resources.gdevelop-app.com/assets/Isometric Pack/Abstract tiles/Isometric Abstract Platformer Blue Tile_Top.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/Dungeon Backgrund.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images/Dungeon Backgrund.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Font/AAbrigyThink-OVAAA.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Font/AAbrigyThink-OVAAA.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -139,13 +155,107 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1,
+        "zoomFactor": 0.40000000000000013,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "b0c6c94c-f3a3-4a55-bede-4b98a628f7a0",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "1a026b3b-156f-4e94-ab50-332b2edd263e",
+          "width": 0,
+          "x": 210,
+          "y": 69,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images/Dungeon Backgrund.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Dungeun Escape 3000",
+          "font": "Font/AAbrigyThink-OVAAA.ttf",
+          "characterSize": 100,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
