@@ -136,267 +136,439 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Tile Sets/Platform.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Images/Tile stone.png",
         "kind": "image",
         "metadata": "",
-        "name": "Images/Tile stone.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/Door Close.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images/Door Close.png",
+        "name": "Images\\Tile stone.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "Images/Door Half Open.png",
+        "file": "assets/Lil Wiz_Casting Spell Aerial_1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Images/Door Half Open.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/Door Open.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images/Door Open.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red block.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red block.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Other/Red block.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red block_key.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red block_key.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Other/Red block_key.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red block_lock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red block_lock.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Other/Red block_lock.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red block_puzzle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red block_puzzle.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Other/Red block_puzzle.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/Key.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images/Key.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Green block.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Green block.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Other/Green block.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Green block_key.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Green block_key.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Other/Green block_key.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Green block_lock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Green block_lock.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Other/Green block_lock.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Green block_puzzle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Green block_puzzle.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Other/Green block_puzzle.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Elf Male_Hit.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Elf Male_Hit.png",
+        "name": "Lil Wiz_Casting Spell Aerial_1.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Elf Male_Hit.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell Aerial_1.png",
           "name": "gdevelop-asset-store"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Elf Male_Idle_1.png",
+        "file": "assets/Lil Wiz_Casting Spell Aerial_2.png",
         "kind": "image",
         "metadata": "",
-        "name": "Elf Male_Idle_1.png",
+        "name": "Lil Wiz_Casting Spell Aerial_2.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Elf Male_Idle_1.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell Aerial_2.png",
           "name": "gdevelop-asset-store"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Elf Male_Idle_2.png",
+        "file": "assets/Lil Wiz_Casting Spell Aerial_3.png",
         "kind": "image",
         "metadata": "",
-        "name": "Elf Male_Idle_2.png",
+        "name": "Lil Wiz_Casting Spell Aerial_3.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Elf Male_Idle_2.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell Aerial_3.png",
           "name": "gdevelop-asset-store"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Elf Male_Idle_3.png",
+        "file": "assets/Lil Wiz_Casting Spell Aerial_4.png",
         "kind": "image",
         "metadata": "",
-        "name": "Elf Male_Idle_3.png",
+        "name": "Lil Wiz_Casting Spell Aerial_4.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Elf Male_Idle_3.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell Aerial_4.png",
           "name": "gdevelop-asset-store"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Elf Male_Idle_4.png",
+        "file": "assets/Lil Wiz_Casting Spell Repeating_1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Elf Male_Idle_4.png",
+        "name": "Lil Wiz_Casting Spell Repeating_1.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Elf Male_Idle_4.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell Repeating_1.png",
           "name": "gdevelop-asset-store"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Elf Male_Run_1.png",
+        "file": "assets/Lil Wiz_Casting Spell Repeating_2.png",
         "kind": "image",
         "metadata": "",
-        "name": "Elf Male_Run_1.png",
+        "name": "Lil Wiz_Casting Spell Repeating_2.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Elf Male_Run_1.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell Repeating_2.png",
           "name": "gdevelop-asset-store"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Elf Male_Run_2.png",
+        "file": "assets/Lil Wiz_Casting Spell Repeating_3.png",
         "kind": "image",
         "metadata": "",
-        "name": "Elf Male_Run_2.png",
+        "name": "Lil Wiz_Casting Spell Repeating_3.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Elf Male_Run_2.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell Repeating_3.png",
           "name": "gdevelop-asset-store"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Elf Male_Run_3.png",
+        "file": "assets/Lil Wiz_Casting Spell Repeating_4.png",
         "kind": "image",
         "metadata": "",
-        "name": "Elf Male_Run_3.png",
+        "name": "Lil Wiz_Casting Spell Repeating_4.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Elf Male_Run_3.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell Repeating_4.png",
           "name": "gdevelop-asset-store"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Elf Male_Run_4.png",
+        "file": "assets/Lil Wiz_Casting Spell_1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Elf Male_Run_4.png",
+        "name": "Lil Wiz_Casting Spell_1.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Elf Male_Run_4.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Casting Spell_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Casting Spell_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Casting Spell_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Casting Spell_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Casting Spell_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Casting Spell_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Casting Spell_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Ducking (32 x 32).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Ducking (32 x 32).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Ducking (32 x 32).png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Falling_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Falling_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Falling_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Falling_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Falling_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Falling_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Ground Recovery_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Ground Recovery_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Ground Recovery_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Ground Recovery_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Ground Recovery_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Ground Recovery_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Ground Recovery_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Ground Recovery_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Ground Recovery_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Hurt_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Hurt_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Hurt_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Hurt_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Hurt_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Hurt_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Idle_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Idle_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Jumping (32 x 32).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Jumping (32 x 32).png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Jumping (32 x 32).png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Running_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Running_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Running_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Running_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Running_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Running_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Running_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Running_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Running_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Running_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Running_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Running_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Running_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Running_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Running_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lil Wiz_Running_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lil Wiz_Running_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 5/Lil Wiz/Lil Wiz_Running_6.png",
           "name": "gdevelop-asset-store"
         }
       }
@@ -430,7 +602,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41333335571288976,
+        "zoomFactor": 0.36000002441406165,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -459,8 +631,8 @@
           "name": "NewText",
           "persistentUuid": "1a026b3b-156f-4e94-ab50-332b2edd263e",
           "width": 0,
-          "x": 207,
-          "y": 210,
+          "x": 229,
+          "y": 99,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -521,7 +693,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Dungeun Escape 3000",
+          "string": "Dungeon Escape 3000",
           "font": "Font/AAbrigyThink-OVAAA.ttf",
           "characterSize": 100,
           "color": {
@@ -556,6 +728,11 @@
             }
           ],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -585,18 +762,18 @@
       "behaviorsSharedData": []
     },
     {
-      "b": 0,
+      "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level1",
-      "name": "Level1",
+      "mangledName": "GameScene",
+      "name": "GameScene",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 0,
+      "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 0,
+      "v": 209,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -627,81 +804,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1080,
-          "layer": "",
-          "name": "Background",
-          "persistentUuid": "7742eafc-b8bc-4ff8-96af-7fb716bf530f",
-          "width": 1920,
-          "x": 0,
-          "y": 0,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Door",
-          "persistentUuid": "ba84be81-8585-453e-938f-e9bdaf88c0bf",
-          "width": 0,
-          "x": 1524,
-          "y": 471,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 218,
-          "layer": "",
-          "name": "NewTiledSprite",
-          "persistentUuid": "96cf47e5-5555-47cd-abbb-2664f16cf015",
-          "width": 1653,
-          "x": 173,
-          "y": 708,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 62,
-          "layer": "",
-          "name": "Key",
-          "persistentUuid": "1517b41f-b272-4dd2-bd78-ce9580e75e60",
-          "width": 128,
-          "x": 911,
-          "y": 617,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 204,
-          "layer": "",
-          "name": "ElfMale",
-          "persistentUuid": "81bb74fd-c50c-4661-be22-582d22cead45",
-          "width": 128,
-          "x": 278,
-          "y": 505,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -713,23 +815,224 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\Character IDLE.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 7164368,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 100,
+        "gridHeight": 100,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.5200000183105459,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 300,
+          "layer": "",
+          "name": "Character",
+          "persistentUuid": "a331ff1a-a4f5-4ebe-8e1b-ccaeb549ac5c",
+          "width": 300,
+          "x": 300,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "308adbe8-78e3-40cb-ab5d-fb47dda67ce3",
+          "width": 1,
+          "x": 1280,
+          "y": 768,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "name": "Tile",
+          "persistentUuid": "dfe256ea-b1bf-49df-ae96-74551fa76f87",
+          "width": 1500,
+          "x": 100,
+          "y": 700,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "042c9befeba7688e0f8c45341004faf3d881bca8edc6c51a3c751b2f102a4c0b",
+          "name": "Platform",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
           "behaviors": [
             {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Characterv2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "MovingLeft",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
+              "gravity": 1500,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 1000,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
+              "maxFallingSpeed": 1100,
+              "maxSpeed": 400,
+              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -745,7 +1048,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
                       "image": "Images\\Character IDLE.png",
                       "points": [],
                       "originPoint": {
@@ -759,66 +1062,6 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 16.903621673583984
-                          },
-                          {
-                            "x": 144.20437622070312,
-                            "y": 17.040708541870117
-                          },
-                          {
-                            "x": 142.49459838867188,
-                            "y": 200
-                          },
-                          {
-                            "x": 0,
-                            "y": 200
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "Background",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Images/Dungeon Backgrund.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
                       "customCollisionMask": []
                     }
                   ]
@@ -829,100 +1072,21 @@
         },
         {
           "assetStoreId": "",
-          "name": "Door",
+          "name": "NewSprite",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "animations": [
+          "behaviors": [
             {
-              "name": "Closed",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Images/Door Close.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -30.10495376586914,
-                        "y": -8.102005004882812
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Open",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.20000000298023224,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Images/Door Half Open.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -30.10495376586914,
-                        "y": -8.102005004882812
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Images/Door Open.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -30.10495376586914,
-                        "y": -8.102005004882812
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
             }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "Key",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
+          ],
           "animations": [
             {
               "name": "",
@@ -934,7 +1098,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Images/Key.png",
+                      "image": "Images\\Tile stone.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -950,20 +1114,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 5.423177242279053,
-                            "y": 65.37606811523438
+                            "x": 0.8670400977134705,
+                            "y": 12.618833541870117
                           },
                           {
-                            "x": 359.9219970703125,
-                            "y": 29.860578536987305
+                            "x": 246,
+                            "y": 12.346820831298828
                           },
                           {
-                            "x": 329.4203796386719,
-                            "y": 166.7581787109375
+                            "x": 246,
+                            "y": 251
                           },
                           {
-                            "x": 7.0784196853637695,
-                            "y": 126.06629943847656
+                            "x": 0,
+                            "y": 251
                           }
                         ]
                       ]
@@ -977,9 +1141,9 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "NewTiledSprite",
+          "name": "Tile",
           "tags": "",
-          "texture": "Images/Tile stone.png",
+          "texture": "Images\\Tile stone.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -995,12 +1159,49 @@
           ]
         },
         {
-          "assetStoreId": "318d86403d6ae31c5d95cc12002589bf9a521fd0636d7ae118fec1e6f55fb698",
-          "name": "ElfMale",
+          "assetStoreId": "",
+          "name": "drawer",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true
+        },
+        {
+          "assetStoreId": "d106729d67f6709ebf31bc6635272f1628e51649600088263695caf7929abb32",
+          "name": "Character",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "MovingLeft",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "SpawningBlock",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -1009,13 +1210,13 @@
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
+              "gravity": 1500,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 1000,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
+              "maxFallingSpeed": 1100,
+              "maxSpeed": 700,
               "name": "PlatformerObject",
               "slopeMaxAngle": 60,
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -1031,11 +1232,11 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.125,
+                  "timeBetweenFrames": 0.20000000298023224,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "Elf Male_Idle_1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Idle_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1048,11 +1249,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "Elf Male_Idle_2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Idle_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1065,11 +1285,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "Elf Male_Idle_3.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Idle_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1082,11 +1321,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "Elf Male_Idle_4.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Idle_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1099,94 +1357,69 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "name": "Run",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Elf Male_Run_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Elf Male_Run_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Elf Male_Run_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Elf Male_Run_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hit",
+              "name": "Hurt",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1194,8 +1427,8 @@
                   "timeBetweenFrames": 0.02500000037252903,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "Elf Male_Hit.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Hurt_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1208,7 +1441,1058 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Hurt_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Casting Spell Aerial",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Aerial_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Aerial_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Aerial_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Aerial_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Casting Spell Repeating",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Repeating_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Repeating_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Repeating_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Repeating_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Casting Spell",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ducking (32 x 32)",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Ducking (32 x 32).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Falling",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Falling_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Falling_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ground Recovery",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.33329999446868896,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Ground Recovery_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Ground Recovery_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Ground Recovery_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jumping (32 x 32)",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Jumping (32 x 32).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Running",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16670000553131104,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.46285343170166,
+                            "y": 8.528891563415527
+                          },
+                          {
+                            "x": 23.264739990234375,
+                            "y": 8.840211868286133
+                          },
+                          {
+                            "x": 24.51002311706543,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.076061248779297,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -1219,120 +2503,517 @@
       ],
       "events": [
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Player Controls",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Placing Blocks",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"Casting Spell\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Character",
+                    "SpawningBlock",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationEnded"
+                  },
+                  "parameters": [
+                    "Character"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"Casting Spell\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Character",
+                    "SpawningBlock",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "Character",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"Casting Spell\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Character",
+                        "MovingLeft",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "NewSprite",
+                        "round((Character.X() - 80) / 100) * 100",
+                        "round((Character.Y()+150) / 100) * 100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeWidth"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "=",
+                        "100\n"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeHeight"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "=",
+                        "100"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Character",
+                        "MovingLeft",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "NewSprite",
+                        "round((Character.X() + 240) / 100) * 100",
+                        "round((Character.Y()+150)/ 100) * 100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeWidth"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "=",
+                        "100\n"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeHeight"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "=",
+                        "100"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Moving left and right",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "a"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "Character",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MovingLeft",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "d"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "Character",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MovingLeft",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Jump",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "w"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Character",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Falling",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Flipping",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MovingLeft",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Character",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MovingLeft",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Idle\n",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Character",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Character",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Character",
+                    "SpawningBlock",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Configurations",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
               "type": {
-                "value": "FixCamera"
+                "value": "CentreCamera"
               },
               "parameters": [
                 "",
                 "Character",
-                "0",
-                "0",
-                "1920",
-                "1080",
                 "",
                 "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "ElfMale",
-                "Key",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Key"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Visible"
-              },
-              "parameters": [
-                "Key"
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "ElfMale",
-                "Door",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Door",
-                "\"Open\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "Door",
-                "\"Open\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimationEnded"
-              },
-              "parameters": [
-                "Door"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Menu\"",
                 ""
               ]
             }
@@ -1341,7 +3022,7 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 7164368,
+          "ambientLightColorB": 7405896,
           "ambientLightColorG": 150995054,
           "ambientLightColorR": 1869182049,
           "followBaseLayerCamera": false,
@@ -1376,7 +3057,131 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "@Lizard-13",
+      "category": "",
+      "description": "An action which, when applied on some objects, snap these objects to a *virtual grid*, with cells having customizable width and height.\n\nUseful for level editors or putting objects on a tiled based map (RPG, strategy games, or any tiled based game in general).",
+      "extensionNamespace": "",
+      "fullName": "Snap objects to a virtual grid",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXZpZXctZ3JpZC1wbHVzLW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMyAyMUgxMVYxM0gzTTUgMTVIOVYxOUg1TTMgMTFIMTFWM0gzTTUgNUg5VjlINU0xMyAzVjExSDIxVjNNMTkgOUgxNVY1SDE5TTE4IDE2SDIxVjE4SDE4VjIxSDE2VjE4SDEzVjE2SDE2VjEzSDE4WiIgLz48L3N2Zz4=",
+      "name": "SnapToGrid",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/view-grid-plus-outline.svg",
+      "shortDescription": "Action to snap objects to a virtual grid during the game.",
+      "version": "0.0.3",
+      "origin": {
+        "identifier": "SnapToGrid",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "snap",
+        "grid",
+        "positioning",
+        "tiles"
+      ],
+      "authorIds": [],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Snap object to a virtual grid (i.e: this is not the grid used in the editor).",
+          "fullName": "Snap objects to a virtual grid",
+          "functionType": "Action",
+          "group": "",
+          "name": "SnapObjectToVirtualGrid",
+          "private": false,
+          "sentence": "Snap _PARAM1_ to a virtual grid using cells with  width: _PARAM2_px, height _PARAM3_px and an offset position (_PARAM4_; _PARAM5_)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Round the Object position to snap to the in-game grid",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "GetArgumentAsNumber(\"CellWidth\") * round((Object.X() - GetArgumentAsNumber(\"OffsetX\")) / GetArgumentAsNumber(\"CellWidth\")) + GetArgumentAsNumber(\"OffsetX\")",
+                    "=",
+                    "GetArgumentAsNumber(\"CellHeight\") * round((Object.Y() - GetArgumentAsNumber(\"OffsetY\")) / GetArgumentAsNumber(\"CellHeight\")) + GetArgumentAsNumber(\"OffsetY\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Objects to snap to the virtual grid",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Width of a cell of the virtual grid (in pixels)",
+              "longDescription": "",
+              "name": "CellWidth",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Height of a cell of the virtual grid (in pixels)",
+              "longDescription": "",
+              "name": "CellHeight",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Offset on the X axis of the virtual grid (in pixels)",
+              "longDescription": "",
+              "name": "OffsetX",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Offset on the Y axis of the virtual grid (in pixels)",
+              "longDescription": "",
+              "name": "OffsetY",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": []
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
