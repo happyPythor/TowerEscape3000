@@ -661,6 +661,123 @@
         "name": "Trap 1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Documents/GDevelop projects/TowerEscape3000-main/Assets/Door Close.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Documents\\GDevelop projects\\TowerEscape3000-main\\Assets\\Door Close.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Half Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Half Open.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Open.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Open2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Open2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Half Open2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Half Open2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Close.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Close.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Close2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Close2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Close3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Close3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Half Open3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Half Open3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Open3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Open3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Close4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Close4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Half Open4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Half Open4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door Open4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Open4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -989,7 +1106,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4718020456223726,
+        "zoomFactor": 0.31256726129343443,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1186,6 +1303,51 @@
           "x": 703,
           "y": -641,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "name": "Door",
+          "persistentUuid": "51c8e37e-c7fa-4eea-9e32-1e3112e4c31e",
+          "width": 202.57510375976562,
+          "x": -402.5751037597656,
+          "y": -700,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "3ff5d892-b465-496d-910a-e9e945b8ac3d",
+          "width": 200,
+          "x": -400,
+          "y": -500,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "4283f7d8-9c71-4f3d-a601-f3b192f4ad13",
+          "width": 200,
+          "x": 709,
+          "y": -1316,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1664,12 +1826,76 @@
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Door Close3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Door Half Open3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Door Open3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Key",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
             {
-              "name": "Close",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
