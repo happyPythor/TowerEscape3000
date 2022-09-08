@@ -14,7 +14,7 @@
     "pixelsRounding": false,
     "projectUuid": "d04d27a1-3aed-45a9-aa80-3996b8d6b497",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -574,15 +574,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Block Platform.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Block Platform.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Character Normal.png",
         "kind": "image",
         "metadata": "",
@@ -778,7 +769,55 @@
         "name": "Door Open4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/Tile stone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images/Tile stone.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Images/Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images/Key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Block Platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Block Platform.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/Door Close.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images/Door Close.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Mid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wall Mid.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Walls/Wall Mid.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -833,15 +872,75 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "height": 140,
+          "layer": "",
+          "name": "StartButton",
+          "persistentUuid": "7863d6d1-ff11-4519-83fa-a2c9648a3fc6",
+          "width": 380,
+          "x": 785,
+          "y": 395,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "NewText",
-          "persistentUuid": "1a026b3b-156f-4e94-ab50-332b2edd263e",
+          "name": "Title",
+          "persistentUuid": "32d03d9f-51e2-4d13-9075-59b43bac32b2",
           "width": 0,
-          "x": 229,
-          "y": 99,
-          "zOrder": 2,
+          "x": 60,
+          "y": 100,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "StartText",
+          "persistentUuid": "4002cd24-d873-4e23-a9c3-008296bb07cb",
+          "width": 0,
+          "x": 800,
+          "y": 408,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "",
+          "name": "CreditText",
+          "persistentUuid": "2e7e7f12-cf60-4dff-b573-b1113094415f",
+          "width": 436,
+          "x": 760,
+          "y": 621,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 115,
+          "layer": "",
+          "name": "CreditButton",
+          "persistentUuid": "0ab16f12-fb49-4154-8098-b8497759ab7b",
+          "width": 464,
+          "x": 742,
+          "y": 611,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -893,7 +992,7 @@
           "assetStoreId": "",
           "bold": true,
           "italic": false,
-          "name": "NewText",
+          "name": "Title",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -901,9 +1000,9 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Dungeon Escape 3000",
+          "string": "Tower Escape 3000",
           "font": "Font/AAbrigyThink-OVAAA.ttf",
-          "characterSize": 100,
+          "characterSize": 140,
           "color": {
             "b": 27,
             "g": 2,
@@ -911,15 +1010,128 @@
           }
         },
         {
-          "assetStoreId": "",
-          "name": "NewSprite",
+          "assetStoreId": "d007f51b7e56037307ff901469b89d76a01081e13fc1bd4333bbac08633edc80",
+          "name": "StartButton",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Wall Mid.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "StartText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Start",
+          "font": "Font/AAbrigyThink-OVAAA.ttf",
+          "characterSize": 100,
+          "color": {
+            "b": 95,
+            "g": 73,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "d007f51b7e56037307ff901469b89d76a01081e13fc1bd4333bbac08633edc80",
+          "name": "CreditButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Wall Mid.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "CreditText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Credits",
+          "font": "Font/AAbrigyThink-OVAAA.ttf",
+          "characterSize": 80,
+          "color": {
+            "b": 95,
+            "g": 73,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -928,19 +1140,82 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "SourisSurObjet"
               },
               "parameters": [
+                "StartText",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "StartButton",
+                "",
+                "",
                 ""
               ]
             }
           ],
-          "actions": []
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Untitled scene\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Untitled scene\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -1098,7 +1373,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 100,
         "gridHeight": 100,
@@ -1106,8 +1381,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.31256726129343443,
+        "snap": true,
+        "zoomFactor": 0.5125672612934344,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1116,164 +1391,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 200,
-          "layer": "",
-          "name": "Character",
-          "persistentUuid": "a331ff1a-a4f5-4ebe-8e1b-ccaeb549ac5c",
-          "width": 200,
-          "x": 400,
-          "y": 100,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 1,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Block",
           "persistentUuid": "308adbe8-78e3-40cb-ab5d-fb47dda67ce3",
           "width": 1,
           "x": 1280,
           "y": 768,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 300,
-          "layer": "",
-          "name": "Tile",
-          "persistentUuid": "dfe256ea-b1bf-49df-ae96-74551fa76f87",
-          "width": 3500,
-          "x": -600,
-          "y": 900,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "fe093134-603e-42ae-a77e-7567f4161d94",
-          "width": 200,
-          "x": 2000,
-          "y": 100,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "dcb670d9-f0f6-41ed-8168-486ffa22eb34",
-          "width": 200,
-          "x": 1800,
-          "y": 100,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "cdf4d5c8-645e-4d88-b27d-ff6898ed2a46",
-          "width": 200,
-          "x": 1200,
-          "y": 100,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "d7e1b28f-62ce-4123-9cba-bac2c0f90f2a",
-          "width": 200,
-          "x": 1400,
-          "y": 100,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "eb147955-c480-4f84-8336-1976e8e96236",
-          "width": 200,
-          "x": 1600,
-          "y": 100,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "1f44b44c-d31e-4a28-98c5-394463f513b4",
-          "width": 200,
-          "x": 300,
-          "y": -500,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "f8d762fa-24c8-4440-b1dc-4a9fa5287822",
-          "width": 200,
-          "x": 500,
-          "y": -500,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "f18c0107-b322-41db-ad66-9e1710a11194",
-          "width": 200,
-          "x": 700,
-          "y": -500,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1302,7 +1427,7 @@
           "persistentUuid": "1cd5385a-2d86-49e3-a1ec-ad4969139aa1",
           "width": 0,
           "x": 703,
-          "y": -641,
+          "y": -642,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1328,12 +1453,12 @@
           "customSize": true,
           "height": 200,
           "layer": "",
-          "name": "Platform",
-          "persistentUuid": "3ff5d892-b465-496d-910a-e9e945b8ac3d",
-          "width": 200,
-          "x": -400,
-          "y": -500,
-          "zOrder": 7,
+          "name": "Tile",
+          "persistentUuid": "d13ba593-4548-4519-9cad-d0866cd2a517",
+          "width": 4100,
+          "x": -800,
+          "y": 800,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1343,12 +1468,117 @@
           "customSize": true,
           "height": 200,
           "layer": "",
-          "name": "Platform",
-          "persistentUuid": "4283f7d8-9c71-4f3d-a601-f3b192f4ad13",
+          "name": "Tile",
+          "persistentUuid": "1640e11d-d55e-4be7-a955-0dd995b7cc05",
+          "width": 1000,
+          "x": 1200,
+          "y": 100,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "name": "Tile",
+          "persistentUuid": "44d8e634-29f2-4d42-b0bb-f3c755da5f08",
+          "width": 600,
+          "x": 300,
+          "y": -500,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "name": "Tile",
+          "persistentUuid": "ed8dac1e-15a6-4ae0-adb6-1e7aae2a10f8",
           "width": 200,
-          "x": 709,
-          "y": -1316,
-          "zOrder": 7,
+          "x": 700,
+          "y": -1300,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "name": "Character",
+          "persistentUuid": "3d3aa444-10da-49fd-ab5d-05f50e3c8c20",
+          "width": 200,
+          "x": 0,
+          "y": 600,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "name": "Key",
+          "persistentUuid": "ed43c7b1-4245-4ee5-974b-b7882640b3cb",
+          "width": 200,
+          "x": 700,
+          "y": -1400,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "name": "Tile",
+          "persistentUuid": "cfc677d2-36b4-4a5e-9687-fd3b2a31101f",
+          "width": 200,
+          "x": -400,
+          "y": -500,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "Background",
+          "name": "Background",
+          "persistentUuid": "72594401-371a-42e0-881d-7b2d847b77ca",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "layer": "",
+          "name": "Trap_1",
+          "persistentUuid": "1ab71ae5-78af-419d-a3f2-621d89f27a88",
+          "width": 195,
+          "x": 500,
+          "y": 654,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1356,11 +1586,13 @@
       ],
       "objects": [
         {
-          "assetStoreId": "042c9befeba7688e0f8c45341004faf3d881bca8edc6c51a3c751b2f102a4c0b",
-          "name": "Platform",
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Tile",
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "texture": "Images/Tile stone.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
           "variables": [],
           "effects": [],
           "behaviors": [
@@ -1371,111 +1603,11 @@
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.02500000037252903,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Tile stone.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
           ]
         },
         {
           "assetStoreId": "",
-          "name": "Characterv2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "MovingLeft",
-              "type": "boolean",
-              "value": false
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1500,
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 1000,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 1100,
-              "maxSpeed": 400,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Images\\Character IDLE.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "Block",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -1499,12 +1631,12 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "BlockPlatform",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -1550,26 +1682,6 @@
         },
         {
           "assetStoreId": "",
-          "height": 32,
-          "name": "Tile",
-          "tags": "",
-          "texture": "Images\\Tile stone.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "name": "drawer",
           "tags": "",
           "type": "PrimitiveDrawing::Drawer",
@@ -1593,183 +1705,6 @@
           "clearBetweenFrames": true
         },
         {
-          "assetStoreId": "d106729d67f6709ebf31bc6635272f1628e51649600088263695caf7929abb32",
-          "name": "Character",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "MovingLeft",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "name": "SpawningBlock",
-              "type": "boolean",
-              "value": false
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1500,
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 1000,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 1100,
-              "maxSpeed": 700,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.20000000298023224,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Character Normal2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Character IDLE2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Spawn block",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.20000000298023224,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Character Normal3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Character Spawn Block.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Character Normal4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "NewSprite2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "assetStoreId": "",
-          "name": "NewSprite3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
           "assetStoreId": "",
           "name": "Trap_1",
           "tags": "",
@@ -1788,7 +1723,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "Trap 1.png",
                       "points": [],
                       "originPoint": {
@@ -1802,7 +1737,34 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 163.736083984375,
+                            "y": 39.23223114013672
+                          },
+                          {
+                            "x": 195,
+                            "y": 103.66744995117188
+                          },
+                          {
+                            "x": 195,
+                            "y": 143.12615966796875
+                          },
+                          {
+                            "x": 0,
+                            "y": 143.10079956054688
+                          },
+                          {
+                            "x": 0,
+                            "y": 103.33406829833984
+                          },
+                          {
+                            "x": 32.26743698120117,
+                            "y": 39.35906219482422
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -1821,12 +1783,41 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Open",
+              "name": "Close",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images/Door Close.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Open",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.20000000298023224,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -1886,6 +1877,1311 @@
           ]
         },
         {
+          "assetStoreId": "d106729d67f6709ebf31bc6635272f1628e51649600088263695caf7929abb32",
+          "name": "Character",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 2000,
+              "deceleration": 2000,
+              "gravity": 650,
+              "jumpSustainTime": 0.5,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hurt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Hurt_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Hurt_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Casting Spell Aerial",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Aerial_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Aerial_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Aerial_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Aerial_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Casting Spell Repeating",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Repeating_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Repeating_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Repeating_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell Repeating_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Place Block",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.10000000149011612,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Casting Spell_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ducking (32 x 32)",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Ducking (32 x 32).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Falling",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Falling_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Falling_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ground Recovery",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.33329999446868896,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Ground Recovery_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Ground Recovery_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Ground Recovery_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jumping (32 x 32)",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Jumping (32 x 32).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Running",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16670000553131104,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lil Wiz_Running_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.923828125,
+                            "y": 13.959765434265137
+                          },
+                          {
+                            "x": 21.963281631469727,
+                            "y": 14.042187690734863
+                          },
+                          {
+                            "x": 22.056249618530273,
+                            "y": 32
+                          },
+                          {
+                            "x": 10.020703315734863,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "assetStoreId": "",
           "name": "Key",
           "tags": "",
@@ -1902,7 +3198,66 @@
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images/Key.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images/Dungeon Backgrund.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
                 }
               ]
             }
@@ -1937,11 +3292,11 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "MouseButtonPressed"
+                    "value": "KeyPressed"
                   },
                   "parameters": [
                     "",
-                    "Left"
+                    "p"
                   ]
                 },
                 {
@@ -1958,7 +3313,7 @@
                   },
                   "parameters": [
                     "Character",
-                    "\"Spawn block\""
+                    "\"Place Block\""
                   ]
                 },
                 {
@@ -1993,7 +3348,7 @@
                   "parameters": [
                     "Limit",
                     "=",
-                    "15"
+                    "100"
                   ]
                 }
               ]
@@ -2015,7 +3370,7 @@
                   },
                   "parameters": [
                     "Character",
-                    "\"Spawn block\""
+                    "\"Place Block\""
                   ]
                 }
               ],
@@ -2051,7 +3406,7 @@
                   },
                   "parameters": [
                     "Character",
-                    "\"Spawn block\""
+                    "\"Place Block\""
                   ]
                 },
                 {
@@ -2094,7 +3449,7 @@
                       },
                       "parameters": [
                         "",
-                        "NewSprite",
+                        "Block",
                         "round((Character.X() - 80) / 100) * 100",
                         "round((Character.Y()+100) / 100) * 100",
                         ""
@@ -2105,7 +3460,7 @@
                         "value": "ChangeWidth"
                       },
                       "parameters": [
-                        "NewSprite",
+                        "Block",
                         "=",
                         "100\n"
                       ]
@@ -2115,7 +3470,7 @@
                         "value": "ChangeHeight"
                       },
                       "parameters": [
-                        "NewSprite",
+                        "Block",
                         "=",
                         "100"
                       ]
@@ -2153,7 +3508,7 @@
                       },
                       "parameters": [
                         "",
-                        "NewSprite",
+                        "Block",
                         "round((Character.X() + 240) / 100) * 100",
                         "round((Character.Y()+100)/ 100) * 100",
                         ""
@@ -2164,7 +3519,7 @@
                         "value": "ChangeWidth"
                       },
                       "parameters": [
-                        "NewSprite",
+                        "Block",
                         "=",
                         "100\n"
                       ]
@@ -2174,7 +3529,7 @@
                         "value": "ChangeHeight"
                       },
                       "parameters": [
-                        "NewSprite",
+                        "Block",
                         "=",
                         "100"
                       ]
@@ -2238,6 +3593,15 @@
                     "MovingLeft",
                     "True"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"Running\""
+                  ]
                 }
               ]
             },
@@ -2273,6 +3637,15 @@
                     "MovingLeft",
                     "False"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"Running\""
+                  ]
                 }
               ]
             },
@@ -2298,7 +3671,7 @@
                   },
                   "parameters": [
                     "",
-                    "w"
+                    "Space"
                   ]
                 }
               ],
@@ -2311,21 +3684,42 @@
                     "Character",
                     "PlatformerObject"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"Jumping (32 x 32)\""
+                  ]
                 }
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Falling",
-              "comment2": ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Character",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"Idle\""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -2469,6 +3863,17 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -2491,20 +3896,127 @@
           "actions": [
             {
               "type": {
-                "value": "MettreXY"
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Untitled scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
               },
               "parameters": [
                 "Character",
-                "=",
-                "400",
-                "=",
-                "600"
+                "Key",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Key"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "Door",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Visible"
+              },
+              "parameters": [
+                "Key"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Door",
+                "\"Open\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Door",
+                "\"Open\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Door"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
               ]
             }
           ]
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 8725744,
+          "ambientLightColorG": 6043600,
+          "ambientLightColorR": 7124400,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
         {
           "ambientLightColorB": 7405896,
           "ambientLightColorG": 150995054,
